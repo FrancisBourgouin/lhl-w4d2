@@ -1,6 +1,7 @@
 const { Client } = require('pg');
 const connectOptions = require('./connect_options');
 
+
 // Creating the config to connect to postgres
 const client = new Client(connectOptions);
 
